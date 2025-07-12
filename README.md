@@ -3,10 +3,10 @@
 
 1. JavaCore
   - Videos:
-    - Java Basics (videos): https://clck.ru/aj6Bc [2/52];
+    - Java Basics (videos): https://clck.ru/aj6Bc [10/52];
     - Java Pro (videos): https://clck.ru/atH8r [];
   - Exercises:
-    - https://codingbat.com/java (eng);
+    - https://codingbat.com/java (eng); start
     - https://habr.com/ru/post/440436/;
     - https://github.com/allicen/Java-1000;
   - Paid course: javarush;
