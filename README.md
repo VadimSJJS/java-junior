@@ -11,7 +11,7 @@
     - https://github.com/allicen/Java-1000;
   - Paid course: javarush;
   - Books:
-    - Beginner: Изучаем Java, Берт Бейтс и Кэти Сьерра;
+    - Beginner: Изучаем Java, Берт Бейтс и Кэти Сьерра [done];
     - Ordinary: Философия Java, Брюс Эккель;
     - Experienced: Java Эффективное программирование, Джошуа Блох; Чистый код, Роберт Мартин; OCP Oracle Certified Professional Java SE 11;
 
