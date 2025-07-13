@@ -14,6 +14,7 @@ public class Main {
         System.out.println(stringTimes("Hi", 2));
         System.out.println(stringTimes("Hi", 3));
         System.out.println(stringTimes("Hi", 1));
+        System.out.println(stringTimes("Hi", 4));
     }
 
     public static String stringTimes(String str, int n) {
