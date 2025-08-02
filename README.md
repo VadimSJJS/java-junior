@@ -3,7 +3,7 @@
 
 1. JavaCore
   - Videos:
-    - Java Basics (videos): https://clck.ru/aj6Bc [52/52];
+    - Java Basics (videos): https://clck.ru/aj6Bc [52/52] +;
     - Java Pro (videos): https://clck.ru/atH8r [];
   - Exercises:
     - https://codingbat.com/java (eng); start
