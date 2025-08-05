@@ -16,6 +16,6 @@ public class VarArgs {
 //                new Double(11.11)
 //        });
         printArray(new Object[]{"раз", "два", "три"});
-        printArray(new Object[]{new A(), new A(), new A()});
+        // printArray(new Object[]{new A(), new A(), new A()});
     }
 }
