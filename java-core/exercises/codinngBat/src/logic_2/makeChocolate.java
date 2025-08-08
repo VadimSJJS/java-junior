@@ -11,10 +11,23 @@ makeChocolate(4, 1, 7) → 2
 
 public class makeChocolate {
     public static void main(String[] args) {
+        System.out.println(makeChocolate(4, 1, 9));
+        System.out.println(makeChocolate(4, 1, 10));
+        System.out.println(makeChocolate(4, 1, 7));
+        System.out.println(makeChocolate(6, 2, 7));
+        System.out.println(makeChocolate(5, 4, 9));
 
     }
 
-    public int makeChocolate(int small, int big, int goal) {
+    public static int makeChocolate(int small, int big, int goal) {
+        int maxBigInUse = goal / 5;
+        int usedBig = Math.min(big, maxBigInUse);
 
+        int remainForSmall = goal - (usedBig * 5);
+        if (small >= remainForSmall) {
+            return remainForSmall;
+        }
+
+        return -1;
     }
 }
