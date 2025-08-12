@@ -19,13 +19,17 @@ public class starOut {
     public static String starOut(String str) {
         String result = "";
 
-        for (int i = 0; i < str.length() - 1; i++) {
+        for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '*') {
-                if (str.charAt(i + 1) == '*')
                 continue;
             }
 
-            result += str.substring(i, i + 1);
+            boolean hasLeftStar = i > 0 && str.charAt(i - 1) == '*' ;
+            boolean hasRightStar = i < str.length() - 1 && str.charAt(i + 1) == '*';
+
+            if (!hasLeftStar && !hasRightStar) {
+                result += str.substring(i, i + 1);
+            }
         }
 
         return result;
