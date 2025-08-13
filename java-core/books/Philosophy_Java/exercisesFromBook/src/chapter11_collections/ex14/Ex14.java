@@ -18,5 +18,6 @@ public class Ex14 {
         }
 
         System.out.println(linkedList);
+        System.out.println();
     }
 }
