@@ -7,6 +7,7 @@ package chapter11_collections.ex1;
  */
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Gerbil {
     private int gerbilNumber;
@@ -30,8 +31,11 @@ public class Gerbil {
         gerbils.add(gerbil2);
         gerbils.add(gerbil3);
 
-        for (int i = 0; i < gerbils.size(); i++) {
-            gerbils.get(i).hop();
+        Iterator<Gerbil> iterator = gerbils.iterator();
+
+        while(iterator.hasNext()) {
+            Gerbil gerbil = iterator.next();
+            gerbil.hop();
         }
     }
 }
